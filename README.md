@@ -48,6 +48,21 @@ inferring_???.ipynb
 
 The notebook shows how to inferring a cell with a specific battery, start, and appending data.
 
+For example  
+
+```
+Battery_id      9
+Used          100 cycles
+Append_cycles   5 cycles
+```
+
+In inferring_RUL.ipynb  
+```
+Predict RUL/S is 611/82 cycle
+Ground truth RUL/S is 609/100 cycles
+```
+
+
 
 
 ## Experiments in Supplementary
@@ -56,14 +71,14 @@ The notebook shows how to inferring a cell with a specific battery, start, and a
 
 In our research, we design the neural network to assist the gradient descent algorithm fitting linear curves. The trajectory of optimization would be the feature of our model. With the last padding technique, Our method can force the neural network aggregation the varying length of sequences. Thus, it could represent high accuracy in the early stage of the feature, which regards as time-series regularization.
 
-![image](https://github.com/acctouhou/Battery-Life-and-Voltage-Prediction/blob/main/Experiment1/figure1.png)
+![image](https://github.com/acctouhou/Prediction_of_battery/blob/main/Experiment1/figure1.png)
 (a)benchmark of our method in ANN & CNN (b)show different length of data guide different stages of training processing
 
 ### II. How the undegradate battery repersent their feature?
 
 We introduce the NLP technique to deal with forecasting battery life. After tokenizing the battery feature, the data is fed into ALBERT (unsupervised language representation learning algorithm) and compares the latent information between non-degradation and low-degradation.
 
-![image](https://github.com/acctouhou/Battery-Life-and-Voltage-Prediction/blob/main/Experiment2/figure2.png)
+![image](https://github.com/acctouhou/Prediction_of_battery/blob/main/Experiment2/figure2.png)
 (a)show the vocabulary size(Precision of measurement) could affect the distinguishable of degradation (b)illustrated the distance between Nth cycle and 100th cycle feature in ALBERT latent space
 
 
