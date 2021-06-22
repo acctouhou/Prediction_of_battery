@@ -4,6 +4,12 @@
 
 This repository contains our dataset, pre-trained model, and predicting script of 'Battery Life and Voltage Prediction by Using Data of One Cycle Only.' Two experiments illustrated following set up our concept of data flow and the design of models. 
 
+Pipeline
+```
+|-----Cycling charging data--------feature_selector_ch--|-----predictor-----Prediction RUL & used cycle
+|-----Cycling discharging data-----feature_selector_dis-|-----predictor2----Prediction voltage v.s. SOC curve & capacity & power entire life
+|-----Summarizing data per cycle------------------------|
+```
 
 ## Datasets
 
