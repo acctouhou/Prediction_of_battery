@@ -97,11 +97,11 @@ We introduce the NLP technique to deal with forecasting battery life. After toke
 ```
 @misc{acctouhou,
   author = {Chia-wei,Hsu},
-  title = {Battery-Life-and-Voltage-Prediction},
+  title = {Prediction_of_battery},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/acctouhou/Battery-Life-and-Voltage-Prediction}}
+  howpublished = {\url{https://github.com/acctouhou/Prediction_of_battery}}
 }
 ```
 
