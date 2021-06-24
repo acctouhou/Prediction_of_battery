@@ -110,4 +110,6 @@ We introduce the NLP technique to deal with forecasting battery life. After toke
   howpublished = {\url{https://github.com/acctouhou/Prediction_of_battery}}
 }
 ```
+## Licensing
 
+This repository is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
