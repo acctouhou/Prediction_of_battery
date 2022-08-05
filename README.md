@@ -13,7 +13,14 @@ Pipeline:
 
 ## Datasets
 
+### I. Description
+
 The dataset is pre-processing from the Severson et al. work. After data cleaning, we split the feature into charge, discharge, and summary parts. The roughly visualization of the dataset represent in data_visualization.ipynb. Then, the inferring of a cell and all of the cells demonstrated in inferring.ipynb and predict.py, respectively.  
+
+### II. Demo of data processing
+
+The Jupyter notebook performs how the raw data has been processed. The processing includes data cleaning, interpolating, and collecting from MAT-files.
+
 
 
 ### Battery Remaining Useful Life and Voltage Prediction
