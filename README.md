@@ -23,7 +23,7 @@ The Jupyter notebook performs how the raw data has been processed. The processin
 
 
 
-### Battery Remaining Useful Life and Voltage Prediction
+### III. Battery Remaining Useful Life and Voltage Prediction
 Make sure the folder architecture as follows:
 ```
 |-----dataset-----|----charge_data.npy  
