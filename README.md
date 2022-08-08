@@ -19,7 +19,7 @@ The dataset is pre-processing from the Severson et al. work. After data cleaning
 
 ### II. Demo of data processing
 
-The Jupyter notebook performs how the raw data has been processed. The processing includes data cleaning, interpolating, and collecting from MAT-files.
+The Jupyter notebook(4_data processing/data_processing.ipynb) performs how the raw data has been processed. The processing includes data cleaning, interpolating, and collecting from MAT-files.
 
 
 
