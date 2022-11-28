@@ -1,3 +1,4 @@
+
 # Deep Neural Network Battery Life and Voltage Prediction by Using Data of One Cycle Only
 
 ## Introduction
@@ -17,13 +18,19 @@ Pipeline:
 
 The dataset is pre-processing from the Severson et al. work. After data cleaning, we split the feature into charge, discharge, and summary parts. The roughly visualization of the dataset represent in data_visualization.ipynb. Then, the inferring of a cell and all of the cells demonstrated in inferring.ipynb and predict.py, respectively.  
 
+
 ### II. Demo of data processing
 
 The Jupyter notebook(4_data processing/data_processing.ipynb) performs how the raw data has been processed. The processing includes data cleaning, interpolating, and collecting from MAT-files.
 
 
+### III. Trained model& dataset 
+We have released weight and dataset for the main models in the paper.
+ 
+Download link:
+https://drive.google.com/drive/folders/1XTG8GaSqbpFglACoJ61-0Slg2MKeVCtA?usp=share_link
 
-### III. Battery Remaining Useful Life and Voltage Prediction
+### IV. Battery Remaining Useful Life and Voltage Prediction
 Make sure the folder architecture as follows:
 ```
 |-----dataset-----|----charge_data.npy  
@@ -108,14 +115,14 @@ We introduce the NLP technique to deal with forecasting battery life. After toke
 ### BibTeX
 
 ```
-@misc{acctouhou,
-  author = {Chia-wei,Hsu},
-  title = {Prediction_of_battery},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/acctouhou/Prediction_of_battery}}
-}
+@article{HSU2022118134,
+title = {Deep neural network battery life and voltage prediction by using data of one cycle only},
+journal = {Applied Energy},
+volume = {306},
+pages = {118134},
+year = {2022},
+issn = {0306-2619},
+doi = {https://doi.org/10.1016/j.apenergy.2021.118134},
 ```
 ## Licensing
 
