@@ -127,3 +127,7 @@ doi = {https://doi.org/10.1016/j.apenergy.2021.118134},
 ## Licensing
 
 This repository is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=acctouhou/Prediction_of_battery&type=Date)](https://star-history.com/#acctouhou/Prediction_of_battery&Date)
